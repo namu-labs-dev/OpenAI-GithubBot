@@ -9,6 +9,8 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
 
+// Github TEST 메소드
+
 // Pull Request 감지
 octokit.repos
   .get({
