@@ -1,0 +1,25 @@
+{
+  "name": "openai-githubbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namu-labs-dev/OpenAI-GithubBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namu-labs-dev/OpenAI-GithubBot/issues"
+  },
+  "homepage": "https://github.com/namu-labs-dev/OpenAI-GithubBot#readme",
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "octokit": "^2.0.10"
+  }
+}
